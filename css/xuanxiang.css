@@ -1,0 +1,22 @@
+/*主题名称：浅白色百搭主题*/
+/*主题版本：2.0*/
+/*本主题由web主题公园倾力打造，感谢您使用web主题公园的主题，更多主题请访问：http://www.themepark.com.cn*/
+/*BUG提交，请进入web主题公园网站，在相关主题下留言即可，我们收到留言即将对bug进行评估并更新，感谢您的支持*/
+
+.box h1{ display:block; height:30px; width:800px; cursor:pointer; font-size:18px; line-height:27px; border:#7CBFC7 solid 1px;  color: #666;box-shadow: 0 0 2px  #7CBFC7;}.box h1:hover{ box-shadow: 0 0 5px  #7CBFC7;}
+.jiao{  float:left;} 
+.jiao_div li a{ float:left; display:block; font-size:14px; width:500px; }  em{ width:500px; float:left;} strong{ display:block; float:left; width:500px; font-size:14px; margin:5px 0 5px 0;}
+.jiao_div{ width:753px; height: auto; margin:10px; border:#999 solid  1px; float:left; padding:10px;} .jiao_div li{  margint: 5px 0 10px 10px; list-style:none; width: auto; float:left;  border-bottom:dashed 1px #CCC; padding:5px; }  .jiao_e  li{display:none;}
+.jiao_div h2{ cursor:pointer; font-size:14px;}
+img{ max-height:700px; max-width:700px; float:left;}
+.wrap,textarea,em{font-family:'Century Gothic','Microsoft YaHei',Verdana;}
+fieldset{width:800px;border:1px solid #aaa;padding-bottom:20px;margin-top:20px;-webkit-box-shadow:rgba(0,0,0,.2) 0px 0px 5px;-moz-box-shadow:rgba(0,0,0,.2) 0px 0px 5px;box-shadow:rgba(0,0,0,.2) 0px 0px 5px; padding:10px;}
+legend{ float:left; display:block; width:600px; height:auto; margin:10px 0 10px 0; border-bottom:dashed 1px #CCC; padding:5px;}
+textarea{font-size:11px;border:1px solid #aaa;background:none; float:left;}
+textarea:focus{-webkit-box-shadow:rgba(0,0,0,.2) 0px 0px 8px;-moz-box-shadow:rgba(0,0,0,.2) 0px 0px 8px;box-shadow:rgba(0,0,0,.2) 0px 0px 8px;outline:none;}
+#footer{ display:none}
+
+.jiao_img{ width:700px; min-height:200px; position:relative; overflow:hidden; background:url(../images/upload.gif);}
+.jiao_img .imgplay_wen{ float:left; width:400px; height:100px; background: url(../images/imgplay-bj.png); padding:15px; text-align:left; position:absolute; bottom:0; left:20px;}
+.jiao_img .imgplay_wen h5{ color:#FFF; font-size:18px; font-family:Arial, Helvetica, sans-serif,微软雅黑; font-weight:normal; margin:0;}
+.jiao_img .imgplay_wen p{ color:#FFF;}#wpfooter{ display:none;}
