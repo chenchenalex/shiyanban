@@ -26,7 +26,7 @@
 		<div class="shouye1fenlei"><?php single_cat_title(); ?></a></div>
 		<div class="shouye1suoyou">
 		<?php while(have_posts()) : the_post(); ?>
-			<div class="shouye1post"><span class="shouye1riqi"><?php the_time('m月d日') ?></span><span class="shouye1biaoti"><a class="jj" href="<?php the_permalink() ?>" title="<?php the_title(); ?>" target="_blank"><?php echo mb_strimwidth(get_the_title(), 0, 25,"...") ?></a></span></div> 
+			<div class="shouye1post"><span class="shouye1riqi"><?php the_time('m月d日') ?></span><span class="shouye1biaoti"><a class="jj" href="<?php the_permalink() ?>" title="<?php the_title(); ?>" target="_blank"><?php echo mb_strimwidth(get_the_title(), 0, 25,"...") ?></a></span>
 <span class="em">
 <?php 
 $t1=$post->post_date; 
@@ -35,6 +35,8 @@ $diff=(strtotime($t2)-strtotime($t1))/3600;
 if($diff<24){echo "New";} 
 ?>
 </span>
+			</div> 
+
 		<?php endwhile; ?>
 		</div>
 		<?php if($value==45){ ?>
